@@ -1,7 +1,7 @@
 const Header = () => {
 	return (
 		<div className="header">
-			<img src="src/assets/Globe.png" alt="Globe" />
+			<img src="assets/Globe.png" alt="Globe" />
 			<h3>my travel journal.</h3>
 		</div>
 	)

@@ -7,7 +7,7 @@ const Card = (props) => {
 				<img className='main--img' src={props.data.imgSrc} alt={`${props.data.destination}, ${props.data.country}`} />
 				<div className="info--area">
 					<div className="location--div">
-						<img src="src/assets/Fill 220.png" alt="Pin" />
+						<img src="assets/Fill 220.png" alt="Pin" />
 						<h4>{props.data.country.toUpperCase()}</h4>
 						<a href={props.data.location}>View on Google Maps</a>
 					</div>
